@@ -11,7 +11,7 @@ import Cocoa
 class MainViewController: NSViewController {
     var counter = 0 {
         didSet {
-            counterLabel.stringValue = String(describing: "\(counter) forced quits")
+            counterLabel.stringValue = String(describing: "\(counter)")
         }
     }
     @IBOutlet weak var counterLabel: NSTextField!
@@ -39,6 +39,7 @@ class MainViewController: NSViewController {
         super.viewDidLoad()
         print("view did load")
         counter = 0
+        counterLabel.stringValue = "0"
     }
     @IBAction func quit(_ sender: NSButton) {
         NSApplication.shared.terminate(sender)

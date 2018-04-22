@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Jay.xcodeproj">
+      location = "self:/Users/yupinhupro/Documents/xCode/Jay/ForceQuitXcode.xcodeproj">
    </FileRef>
 </Workspace>

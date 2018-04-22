@@ -11,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Jay" id="1Xt-HY-uBw">
+                            <menuItem title="ForceQuitXcode" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Jay" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="ForceQuitXcode" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Jay" id="5kV-Vb-QxS">
+                                        <menuItem title="About ForceQuitXcode" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Jay" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide ForceQuitXcode" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Jay" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit ForceQuitXcode" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -660,7 +660,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="Jay Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="ForceQuitXcode Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -674,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Jay" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ForceQuitXcode" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -683,7 +683,7 @@
         <!--Main View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" id="XfG-lQ-9wD" customClass="MainViewController" customModule="Jay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="XfG-lQ-9wD" customClass="MainViewController" customModule="ForceQuitXcode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="259"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -700,9 +700,9 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J4t-wl-KX5">
-                                <rect key="frame" x="376" y="13" width="90" height="32"/>
+                                <rect key="frame" x="312" y="13" width="154" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Quit Jay" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Clc-9F-B4t">
+                                <buttonCell key="cell" type="push" title="Quit ForceQuitXcode" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Clc-9F-B4t">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -711,9 +711,18 @@
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sVS-eQ-KSV">
-                                <rect key="frame" x="159" y="74" width="162" height="17"/>
+                                <rect key="frame" x="257" y="78" width="70" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Number" id="eUK-eC-Dbf">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="0" id="eUK-eC-Dbf">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="emd-cu-3U6">
+                                <rect key="frame" x="201" y="78" width="57" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Counter:" id="dRq-Pl-4mt">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -728,44 +737,6 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="660.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="eys-sw-QX3">
-            <objects>
-                <viewController id="eXW-GY-Tfo" sceneMemberID="viewController">
-                    <view key="view" id="DEY-a4-ZtO">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="299"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="3ZY-VW-V9T">
-                                <rect key="frame" x="16" y="32" width="418" height="251"/>
-                                <subviews>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="N2o-oV-xS7">
-                                        <rect key="frame" x="21" y="106" width="377" height="39"/>
-                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Force Quit + Launch Xcode" id="J6o-0s-fUn">
-                                            <font key="font" metaFont="system" size="32"/>
-                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="N2o-oV-xS7" firstAttribute="centerY" secondItem="3ZY-VW-V9T" secondAttribute="centerY" id="7El-rH-77w"/>
-                                    <constraint firstItem="N2o-oV-xS7" firstAttribute="centerX" secondItem="3ZY-VW-V9T" secondAttribute="centerX" id="wxa-l0-7HS"/>
-                                </constraints>
-                            </customView>
-                        </subviews>
-                        <constraints>
-                            <constraint firstItem="3ZY-VW-V9T" firstAttribute="top" secondItem="DEY-a4-ZtO" secondAttribute="top" constant="16" id="FDq-H1-Xxp"/>
-                            <constraint firstItem="3ZY-VW-V9T" firstAttribute="leading" secondItem="DEY-a4-ZtO" secondAttribute="leading" constant="16" id="OUg-tL-R7x"/>
-                            <constraint firstAttribute="trailing" secondItem="3ZY-VW-V9T" secondAttribute="trailing" constant="16" id="U7K-LX-J2f"/>
-                            <constraint firstAttribute="bottom" secondItem="3ZY-VW-V9T" secondAttribute="bottom" constant="32" id="vss-3C-CAh"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <customObject id="nfi-IP-jgA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="187" y="1247.5"/>
         </scene>
     </scenes>
 </document>

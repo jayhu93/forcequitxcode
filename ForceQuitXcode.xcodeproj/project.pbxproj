@@ -16,13 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1BFA695208B050900E6D0AC /* Jay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BFA695208B050900E6D0AC /* ForceQuitXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceQuitXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BFA698208B050900E6D0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BFA69A208B050900E6D0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1BFA69C208B050900E6D0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1BFA69F208B050900E6D0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1BFA6A1208B050900E6D0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1BFA6A2208B050900E6D0AC /* Jay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jay.entitlements; sourceTree = "<group>"; };
+		D1BFA6A2208B050900E6D0AC /* ForceQuitXcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceQuitXcode.entitlements; sourceTree = "<group>"; };
 		D1BFA6A8208B09A900E6D0AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D1BFA6AC208B0F7E00E6D0AC /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +41,7 @@
 		D1BFA68C208B050900E6D0AC = {
 			isa = PBXGroup;
 			children = (
-				D1BFA697208B050900E6D0AC /* Jay */,
+				D1BFA697208B050900E6D0AC /* ForceQuitXcode */,
 				D1BFA696208B050900E6D0AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		D1BFA696208B050900E6D0AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1BFA695208B050900E6D0AC /* Jay.app */,
+				D1BFA695208B050900E6D0AC /* ForceQuitXcode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1BFA697208B050900E6D0AC /* Jay */ = {
+		D1BFA697208B050900E6D0AC /* ForceQuitXcode */ = {
 			isa = PBXGroup;
 			children = (
 				D1BFA698208B050900E6D0AC /* AppDelegate.swift */,
@@ -64,17 +64,17 @@
 				D1BFA69E208B050900E6D0AC /* Main.storyboard */,
 				D1BFA6AC208B0F7E00E6D0AC /* EventMonitor.swift */,
 				D1BFA6A1208B050900E6D0AC /* Info.plist */,
-				D1BFA6A2208B050900E6D0AC /* Jay.entitlements */,
+				D1BFA6A2208B050900E6D0AC /* ForceQuitXcode.entitlements */,
 			);
-			path = Jay;
+			path = ForceQuitXcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1BFA694208B050900E6D0AC /* Jay */ = {
+		D1BFA694208B050900E6D0AC /* ForceQuitXcode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1BFA6A5208B050A00E6D0AC /* Build configuration list for PBXNativeTarget "Jay" */;
+			buildConfigurationList = D1BFA6A5208B050A00E6D0AC /* Build configuration list for PBXNativeTarget "ForceQuitXcode" */;
 			buildPhases = (
 				D1BFA691208B050900E6D0AC /* Sources */,
 				D1BFA692208B050900E6D0AC /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = Jay;
+			name = ForceQuitXcode;
 			productName = Jay;
-			productReference = D1BFA695208B050900E6D0AC /* Jay.app */;
+			productReference = D1BFA695208B050900E6D0AC /* ForceQuitXcode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1BFA690208B050900E6D0AC /* Build configuration list for PBXProject "Jay" */;
+			buildConfigurationList = D1BFA690208B050900E6D0AC /* Build configuration list for PBXProject "ForceQuitXcode" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1BFA694208B050900E6D0AC /* Jay */,
+				D1BFA694208B050900E6D0AC /* ForceQuitXcode */,
 			);
 		};
 /* End PBXProject section */
@@ -277,16 +277,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Jay/Jay.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ForceQuitXcode/ForceQuitXcode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = C7L7KU246T;
-				INFOPLIST_FILE = Jay/Info.plist;
+				INFOPLIST_FILE = ForceQuitXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayyupinhu.Jay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayyupinhu.ForceQuitXcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -296,16 +296,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Jay/Jay.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ForceQuitXcode/ForceQuitXcode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = C7L7KU246T;
-				INFOPLIST_FILE = Jay/Info.plist;
+				INFOPLIST_FILE = ForceQuitXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayyupinhu.Jay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayyupinhu.ForceQuitXcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1BFA690208B050900E6D0AC /* Build configuration list for PBXProject "Jay" */ = {
+		D1BFA690208B050900E6D0AC /* Build configuration list for PBXProject "ForceQuitXcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1BFA6A3208B050900E6D0AC /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1BFA6A5208B050A00E6D0AC /* Build configuration list for PBXNativeTarget "Jay" */ = {
+		D1BFA6A5208B050A00E6D0AC /* Build configuration list for PBXNativeTarget "ForceQuitXcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1BFA6A6208B050A00E6D0AC /* Debug */,
