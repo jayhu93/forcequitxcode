@@ -1,4 +1,4 @@
-# forcequitjay
+# ForceQuitXcode
 
 Force Quit Xcode For You, Save Development Time.
 
